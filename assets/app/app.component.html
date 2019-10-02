@@ -2,11 +2,285 @@
     <h1>{{ title }}</h1>
 </div>
 <div class="clearfix">
-    <br/>
-    <br/>
-    <br/>
-    <div class="group-buttons team-color-1 pull-right">
-        <fwd-portail-btn-previous btn-label="sample.previous" btn-style="primary"></fwd-portail-btn-previous>
-        <fwd-portail-btn-next btn-label="sample.next" btnNextLabel (click)="Suivant()"></fwd-portail-btn-next>
+    <div class="table-responsive">
+        <table class="show-quick-actions-on-hover table table-autofit table-hover table-list table-nowrap">
+            <thead>
+            <tr>
+                <th></th>
+                <th class="table-head-title">
+					<span class="inline-item inline-item-before">
+						<a href="#1">
+							<svg class="lexicon-icon lexicon-icon-drag" focusable="false" role="presentation">
+							</svg>
+						</a>
+					</span>
+                    <a class="inline-item text-truncate-inline" href="#1">
+                        <span class="text-truncate" title="ID">ID</span><span class="inline-item inline-item-after">
+							<svg class="lexicon-icon lexicon-icon-order-arrow-down" focusable="false" role="presentation">
+							</svg>
+						</span>
+                    </a>
+                </th>
+                <th class="table-cell-expand table-head-title">
+					<span class="inline-item inline-item-before">
+						<a href="#1">
+							<svg class="lexicon-icon lexicon-icon-drag" focusable="false" role="presentation">
+							</svg>
+						</a>
+					</span>
+                    <a class="inline-item text-truncate-inline" href="#1">
+                        <span class="text-truncate" title="Title">Title</span><span class="inline-item inline-item-after">
+							<svg class="lexicon-icon lexicon-icon-order-arrow-down" focusable="false" role="presentation">
+							</svg>
+						</span>
+                    </a>
+                </th>
+                <th>Status</th>
+                <th class="table-head-title">
+					<span class="inline-item inline-item-before">
+						<a href="#1">
+							<svg class="lexicon-icon lexicon-icon-drag" focusable="false" role="presentation">
+							</svg>
+						</a>
+					</span>
+                    <a class="inline-item text-truncate-inline" href="#1">
+                        <span class="text-truncate" title="Modified Date">Modified Date</span>
+                    </a>
+                </th>
+                <th>Display Date</th>
+                <th class="table-head-title">
+                    <a class="inline-item text-truncate-inline" href="#1">
+                        <span class="text-truncate" title="Author">Author</span><span class="inline-item inline-item-after">
+							<svg class="lexicon-icon lexicon-icon-order-arrow-up" focusable="false" role="presentation">
+							</svg>
+						</span>
+                    </a>
+                </th>
+                <th>Type</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="table-divider">
+                <td colspan="9">Group 1</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="custom-control custom-checkbox">
+                        <label>
+                            <input class="custom-control-input" type="checkbox"/>
+                            <span class="custom-control-label"></span>
+                        </label>
+                    </div>
+                </td>
+                <td>21146</td>
+                <td class="table-cell-expand">
+                    <div class="table-list-title">
+						<span class="text-truncate-inline">
+							<span class="text-truncate" title="Wings eu, pumpkin spice robusta, kopi-luwak mocha caffeine froth grounds.">Wings eu, pumpkin spice robusta, kopi-luwak mocha caffeine froth grounds.</span>
+						</span>
+                    </div>
+                </td>
+                <td>--</td>
+                <td>2 Hours Ago</td>
+                <td>--</td>
+                <td>Stanley Nelson</td>
+                <td>Folder</td>
+                <td>
+                    <div class="quick-action-menu">
+                        <a class="component-action quick-action-item" href="#1" role="button">
+                            <svg class="lexicon-icon lexicon-icon-trash" focusable="false" role="presentation">
+                            </svg>
+                        </a>
+                        <a class="component-action quick-action-item" href="#1" role="button">
+                            <svg class="lexicon-icon lexicon-icon-download" focusable="false" role="presentation">
+                            </svg>
+                        </a>
+                        <a class="component-action quick-action-item" href="#1" role="button">
+                            <svg class="lexicon-icon lexicon-icon-info-circle-open" focusable="false" role="presentation">
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="dropdown dropdown-action">
+                        <a aria-expanded="false" aria-haspopup="true" class="component-action dropdown-toggle" data-toggle="dropdown" href="#1" id="dropdownAction1" role="button">
+                            <svg class="lexicon-icon lexicon-icon-ellipsis-v" focusable="false" role="presentation">
+                            </svg>
+                        </a>
+                        <div aria-labelledby="" class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="#1" role="button">Remove</a>
+                            <a class="dropdown-item" href="#1" role="button">Edit</a>
+                            <a class="dropdown-item" href="#1" role="button">Move</a>
+                            <a class="dropdown-item" href="#1" role="button">Checkout</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr class="table-active">
+                <td>
+                    <div class="custom-control custom-checkbox">
+                        <label>
+                            <input class="custom-control-input" type="checkbox"/>
+                            <span class="custom-control-label"></span>
+                        </label>
+                    </div>
+                </td>
+                <td>
+                    21148
+                </td>
+                <td class="table-cell-expand">
+                    <div class="table-list-title">
+						<span class="text-truncate-inline">
+							<span class="text-truncate" title="Frappuccino medium americano">Frappuccino medium americano</span>
+						</span>
+                    </div>
+                </td>
+                <td>--</td>
+                <td>2 Hours Ago</td>
+                <td>--</td>
+                <td>Stanley Nelson</td>
+                <td>Folder</td>
+                <td>
+                    <div class="quick-action-menu">
+                        <a class="component-action quick-action-item" href="#1" role="button">
+                            <svg class="lexicon-icon lexicon-icon-trash" focusable="false" role="presentation">
+                            </svg>
+                        </a>
+                        <a class="component-action quick-action-item" href="#1" role="button">
+                            <svg class="lexicon-icon lexicon-icon-download" focusable="false" role="presentation">
+                            </svg>
+                        </a>
+                        <a class="component-action quick-action-item" href="#1" role="button">
+                            <svg class="lexicon-icon lexicon-icon-info-circle-open" focusable="false" role="presentation">
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="dropdown dropdown-action">
+                        <a aria-expanded="false" aria-haspopup="true" class="component-action dropdown-toggle" data-toggle="dropdown" href="#1" id="dropdownAction1" role="button">
+                            <svg class="lexicon-icon lexicon-icon-ellipsis-v" focusable="false" role="presentation">
+                            </svg>
+                        </a>
+                        <div aria-labelledby="" class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="#1" role="button">Remove</a>
+                            <a class="dropdown-item" href="#1" role="button">Edit</a>
+                            <a class="dropdown-item" href="#1" role="button">Move</a>
+                            <a class="dropdown-item" href="#1" role="button">Checkout</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="custom-control custom-checkbox">
+                        <label>
+                            <input class="custom-control-input" type="checkbox"/>
+                            <span class="custom-control-label"></span>
+                        </label>
+                    </div>
+                </td>
+                <td>21149</td>
+                <td class="table-cell-expand">
+                    <div class="table-list-title">
+						<span class="text-truncate-inline">
+							<span class="text-truncate" title="Cultivar extra">Cultivar extra</span>
+						</span>
+                    </div>
+                </td>
+                <td>--</td>
+                <td>2 Hours Ago</td>
+                <td>--</td>
+                <td>Stanley Nelson</td>
+                <td>Folder</td>
+                <td>
+                    <div class="quick-action-menu">
+                        <a class="component-action quick-action-item" href="#1" role="button">
+                            <svg class="lexicon-icon lexicon-icon-trash" focusable="false" role="presentation">
+                            </svg>
+                        </a>
+                        <a class="component-action quick-action-item" href="#1" role="button">
+                            <svg class="lexicon-icon lexicon-icon-download" focusable="false" role="presentation">
+                            </svg>
+                        </a>
+                        <a class="component-action quick-action-item" href="#1" role="button">
+                            <svg class="lexicon-icon lexicon-icon-info-circle-open" focusable="false" role="presentation">
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="dropdown dropdown-action">
+                        <a aria-expanded="false" aria-haspopup="true" class="component-action dropdown-toggle" data-toggle="dropdown" href="#1" id="dropdownAction1" role="button">
+                            <svg class="lexicon-icon lexicon-icon-ellipsis-v" focusable="false" role="presentation">
+                            </svg>
+                        </a>
+                        <div aria-labelledby="" class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="#1" role="button">Remove</a>
+                            <a class="dropdown-item" href="#1" role="button">Edit</a>
+                            <a class="dropdown-item" href="#1" role="button">Move</a>
+                            <a class="dropdown-item" href="#1" role="button">Checkout</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="custom-control custom-checkbox">
+                        <label>
+                            <input class="custom-control-input" type="checkbox"/>
+                            <span class="custom-control-label"></span>
+                        </label>
+                    </div>
+                </td>
+                <td>21150</td>
+                <td class="table-cell-expand">
+                    <div class="table-list-title">
+						<span class="text-truncate-inline">
+							<span class="text-truncate" title="Cultivar extra">Cultivar extra</span>
+						</span>
+                    </div>
+                </td>
+                <td>--</td>
+                <td>2 Hours Ago</td>
+                <td>--</td>
+                <td>Stanley Nelson</td>
+                <td>Folder</td>
+                <td>
+                    <div class="quick-action-menu">
+                        <a class="component-action quick-action-item" href="#1" role="button">
+                            <svg class="lexicon-icon lexicon-icon-trash" focusable="false" role="presentation">
+                            </svg>
+                        </a>
+                        <a class="component-action quick-action-item" href="#1" role="button">
+                            <svg class="lexicon-icon lexicon-icon-download" focusable="false" role="presentation">
+                            </svg>
+                        </a>
+                        <a class="component-action quick-action-item" href="#1" role="button">
+                            <svg class="lexicon-icon lexicon-icon-info-circle-open" focusable="false" role="presentation">
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="dropdown dropdown-action">
+                        <a aria-expanded="false" aria-haspopup="true" class="component-action dropdown-toggle" data-toggle="dropdown" href="#1" id="dropdownAction1" role="button">
+                            <svg class="lexicon-icon lexicon-icon-ellipsis-v" focusable="false" role="presentation">
+                            </svg>
+                        </a>
+                        <div aria-labelledby="" class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="#1" role="button">Remove</a>
+                            <a class="dropdown-item" href="#1" role="button">Edit</a>
+                            <a class="dropdown-item" href="#1" role="button">Move</a>
+                            <a class="dropdown-item" href="#1" role="button">Checkout</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="sheet-footer pull-right">
+        <div class="btn-group">
+            <div class="btn-group-item">
+                <fwd-portail-btn-previous btn-label="sample.previous" btn-style="primary"></fwd-portail-btn-previous>
+            </div>
+            <div class="btn-group-item">
+                <fwd-portail-btn-next btn-label="sample.next" btnNextLabel (click)="Suivant()"></fwd-portail-btn-next>
+            </div>
+        </div>
     </div>
 </div>
