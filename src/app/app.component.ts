@@ -1,13 +1,18 @@
 import {AfterViewInit, Component} from '@angular/core';
 
+import {environment} from '../env/environment';
+
 import LiferayParams from '../types/LiferayParams';
 
 import * as $ from 'jquery';
 
+const templateUrl = `${environment.path.app}/app/app.component.html`;
+const styleUrls = [`${environment.path.css}/css/app.component.css`];
+
 @Component({
     selector: 'app-root',
-    templateUrl: '/o/sample-senna-angular-app3-bundle/app/app.component.html',
-    styleUrls: ['/o/sample-senna-angular-app3-bundle/css/app.component.css']
+    templateUrl,
+    styleUrls
 })
 export class AppComponent implements AfterViewInit {
 
